@@ -1,15 +1,15 @@
 // src/components/Hero.jsx
 import React from "react";
-import heroVideo from "../assets/bannernew1.gif";
+import heroVideo from "../assets/bannerimg.gif";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-[80vh] md:h-[80vh] overflow-hidden ">
+    <section className="relative w-full h-[90vh] md:h-[90vh] overflow-hidden">
       {/* Background media */}
       <img
         src={heroVideo}
         alt="Construction work showcase"
-        className="absolute inset-0 h-full w-full object-cover md:object-cover"
+        className="absolute inset-0 h-full w-full object-cover md:object-fit"
         loading="eager"
         fetchpriority="high"
       />

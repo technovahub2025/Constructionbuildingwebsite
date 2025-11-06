@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import LOGO from "../assets/logobuild1.PNG";
+import LOGO from "../assets/logobuild.PNG";
 
 const NavLink = ({ href, onClick, children }) => (
   <a
@@ -107,7 +107,7 @@ const Navbar = () => {
       <div className="w-full bg-white border-b border-gray-200">
         <div className="max-w-7xl flex  mx-auto px-4">
           {/* Logo row */}
-          <div className="h-16  flex gap-9 items-center justify-between md:justify-center md:mt-4 md:mb-8">
+          <div className="h-16 flex gap-9 items-center justify-between md:justify-center md:mt-10 md:mb-5">
              <button
               onClick={() => setOpen(true)}
               className="md:hidden inline-flex items-center justify-center p-2 rounded border border-gray-200 text-gray-700"
@@ -117,12 +117,8 @@ const Navbar = () => {
                 <path strokeWidth="2" strokeLinecap="round" d="M4 6h16M4 12h16M4 18h16"/>
               </svg>
             </button>
-            <img src={LOGO} alt="Gulf Raj Builders" className=" w-[50px] md:h-[90px] md:w-[140px]" />
+            <img src={LOGO} alt="Gulf Raj Builders" className=" w-[90px] md:h-[100px] md:h-[100px] md:w-[200px]" />
             {/* Hamburger */}
-
-            <div>
-
-            </div>
            
           </div>
 
