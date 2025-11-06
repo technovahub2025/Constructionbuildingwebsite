@@ -4,12 +4,12 @@ import heroVideo from "../assets/bannerimg.gif";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-[90vh] md:h-[90vh] overflow-hidden">
+    <section className="relative w-full h-[90vh] md:h-[120vh] overflow-hidden">
       {/* Background media */}
       <img
         src={heroVideo}
         alt="Construction work showcase"
-        className="absolute inset-0 h-full w-full object-cover md:object-fit"
+        className="absolute inset-0 h-full w-full object-cover md:object-cover "
         loading="eager"
         fetchpriority="high"
       />
