@@ -1,18 +1,19 @@
 import React from "react";
+import heroVideo from "../assets/bannervd.mp4";
 
 
 const Hero = () => {
   return (
     <section className="relative h-[40vh] md:h-[70vh] w-full overflow-hidden">
       {/* Video */}
-      {/* <video
+      <video
         className="absolute inset-0 w-full h-full object-cover"
         playsInline
         autoPlay
         muted
         loop
         src={heroVideo}
-      /> */}
+      />
 
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/40" aria-hidden="true" />
