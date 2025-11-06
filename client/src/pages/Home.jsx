@@ -5,7 +5,7 @@ import OurServices from '../components/OurServices'
 
 const Home = () => {
   return (
-    <div> <main>
+    <div> <main >
         <Hero/>
           <Services />
           <OurServices/>

@@ -9,7 +9,7 @@ import Pricing from "./pages/Pricing";
 
 const App = () => {
   return (
-    <div className=" bg-white">
+    <div className="  bg-white px-1 md:px-8  ">
       <BrowserRouter>
       
       
