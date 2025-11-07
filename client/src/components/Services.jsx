@@ -82,7 +82,7 @@ const Services = () => {
   ].map((c) => ({ ...c, accent: "#ff661a" }));
 
   return (
-    <section className=" py-12  sm:py-16 lg:py-20 ">
+    <section className="bg-[#f5f8fb] py-12  sm:py-16 lg:py-20 ">
       <div className="max-w-[1200px] xl:max-w-[1280px] mx-auto px-4 sm:px-6">
         {/* Title */}
         <div className="text-center mb-8 sm:mb-12">

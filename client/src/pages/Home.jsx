@@ -1,12 +1,12 @@
 import React from 'react'
-import Slider from '../components/Hero'
+import Hero from '../components/Hero'
 import Services from '../components/Services'
 import OurServices from '../components/OurServices'
 
 const Home = () => {
   return (
-    <div className='mt-9'> <main>
-        <Slider/>
+    <div> <main>
+        <Hero/>
           <Services />
           <OurServices/>
       </main></div>
