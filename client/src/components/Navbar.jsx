@@ -127,10 +127,10 @@ const Navbar = () => {
             <NavLink href="/">HOME</NavLink>
             <NavLink href="/Buildingestimate">BUILDING ESTIMATOR</NavLink>
             <NavLink href="/Pricing">PRICE BAR</NavLink>
-            <NavLink href="#about">ABOUT US</NavLink>
-            <NavLink href="#videos">PROJECT VIDEOS</NavLink>
-            <NavLink href="#gallery">GALLERY</NavLink>
-            <NavLink href="#contact">CONTACT US</NavLink>
+            <NavLink href="/about">ABOUT US</NavLink>
+            <NavLink href="/videos">PROJECT VIDEOS</NavLink>
+           
+            <NavLink href="/contact">CONTACT US</NavLink>
           </nav>
         </div>
       </div>
@@ -178,7 +178,6 @@ const Navbar = () => {
               <li><NavLink onClick={() => setOpen(false)} href="/Pricing">PRICE BAR</NavLink></li>
               <li><NavLink onClick={() => setOpen(false)} href="/about">ABOUT US</NavLink></li>
               <li><NavLink onClick={() => setOpen(false)} href="/videos">PROJECT VIDEOS</NavLink></li>
-              <li><NavLink onClick={() => setOpen(false)} href="/gallery">GALLERY</NavLink></li>
               <li><NavLink onClick={() => setOpen(false)} href="/contact">CONTACT US</NavLink></li>
             </ul>
           </nav>

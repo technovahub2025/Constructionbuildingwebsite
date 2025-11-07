@@ -28,7 +28,7 @@ const Hero = () => {
       <div className="absolute inset-0 flex items-center justify-center px-4 sm:px-6" />
 
       {/* Bottom CTA banner */}
-      <div className="absolute bottom-0 left-0 right-0 ">
+      <div className="absolute hidden md:block bottom-0 left-0 right-0 ">
         <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 pb-5 sm:pb-8">
           <div className="backdrop-blur-sm bg-black/55 text-white rounded-lg md:rounded-xl shadow-lg ring-1 ring-white/10">
             <div className="flex flex-col md:flex-row items-center md:items-stretch justify-between gap-3 sm:gap-4 p-4 sm:p-5">

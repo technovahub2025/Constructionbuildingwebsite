@@ -6,6 +6,9 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Buildingestimate from "./pages/Buildingestimate";
 import Pricing from "./pages/Pricing";
+import About from "./pages/About";
+import ProjectVideos from "./pages/ProjectVideos";
+import Contact from "./pages/Contact";
 
 const App = () => {
   return (
@@ -19,6 +22,10 @@ const App = () => {
             <Route path="/" element={<Home />} />
          <Route path="/Buildingestimate" element={<Buildingestimate />} />
           <Route path="/Pricing" element={<Pricing />} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/videos" element={<ProjectVideos/>} />
+          <Route path="/contact" element={<Contact/>} />
+
        
 
       </Routes>
